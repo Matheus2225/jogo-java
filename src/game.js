@@ -1,4 +1,3 @@
-JavaScript
 
 import GameScene from './scenes/GameScene.js';
 

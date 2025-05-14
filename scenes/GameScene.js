@@ -1,4 +1,3 @@
-JavaScript
 
 class GameScene extends Phaser.Scene {
     constructor() {
@@ -16,9 +15,9 @@ class GameScene extends Phaser.Scene {
 
     preload() {
         // Carregar os assets do jogo (imagens, sons, etc.)
-        this.load.image('dino', 'assets/dino.png'); // Substitua pelo seu asset
-        this.load.image('ground', 'assets/ground.png'); // Substitua pelo seu asset
-        this.load.image('cactus', 'assets/cactus.png'); // Substitua pelos seus assets de obstáculos
+        this.load.image('dino', './assets/dino.png'); // Substitua pelo seu asset
+        this.load.image('ground', './assets/ground.png'); // Substitua pelo seu asset
+        this.load.image('cactus', './assets/cactus.png'); // Substitua pelos seus assets de obstáculos
     }
 
     create() {
